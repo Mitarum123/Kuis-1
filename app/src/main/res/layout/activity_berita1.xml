@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="319dp"
+        android:layout_height="182dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/berita1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="336dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Jakarta – Laudya Cynthia Bella menjual rumah mewahnya. Rumah tersebut dijual seharga Rp 9 miliar. Istriku Engku Emran itu menyerahkan rumahnya pada salah satu agen properti. Dihubungi detikHOT, Senin (8/10/2018), agen properti tersebut mengatakan sampai sekarang masih terus dipasarkan. “Belum ada yang menawar. Baru seminggu dipasarkan,” kata Arief melalui sambungan telepon. Arief mengatakan tak ada peraturan dan syarat yang diajukan oleh Laudya Cynthia Bella. Dia juga tidak tahu alasan Bella menjual rumah tersebut.  “Alasannya Bu Bella yang tahu,” katanya singkat. Rumah tersebut dijual Rp 9 miliar. Dalam poster tersebut sudah tercantum jelas spesifikasi rumah mewah tersebut. Tertulis rumah mewah itu memiliki taman luas. Luas tanah seluruhnya adalah 1.400 meter persegi. Lokasi rumahnya juga berjarak 1,4 km dari pintu Tol Brigif dan 1,5 km dari pintu Tol Krukut. "
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="348dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="LAUDYA CYNTHIA BELLA MENJUAL RUMAH MEWAHNYA"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

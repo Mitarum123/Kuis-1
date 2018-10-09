@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita3">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="297dp"
+        android:layout_height="226dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/berita3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="335dp"
+        android:layout_height="226dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Jakarta - Sebagai negara dengan mayoritas muslim terbanyak, Indonesia memiliki banyak sekali produsen fashion hijab. Toko-toko hijab tersebar di seluruh daerah di Indonesia, baik dijual online maupun offline.  Untuk kamu yang senang membeli langsung di toko, Jakarta punya beberapa pusat perbelanjaan fashion hijab yang populer. Mulai dari yang termurah hingga termahal, bisa kamu dapatkan di ibukota ini. Di mana saja itu? Berikut ulasannya. 1.	Pasar tanah abang Sudah bukan rahasia lagi jika Pasar Tanah Abang menjadi sentral perniagaan di Jakarta. Beragam produk dijual di sana, termasuk fashion hijab. Bahkan, ada satu blok khusus di Pasar Tanah Abang yang menjual beragam produk hijab yaitu blok A.  Harganya pun bervariasi. Kamu bisa mendapatkan harga hijab termurah di sini, mulai Rp 20 ribu saja. Untuk pembelian grosir, banyak toko memberikan harga spesial. Namun, tak banyak desainer yang membuka toko di sini. Salah satu desainer populer yang membuat toko di sini adalah Itang Yunasz. 2.	Thamrin City Destinasi kedua berbelanja hijab murah adalah Thamrin City. Sama seperti Tanah Abang, Thamrin City menjual produk hijab termurah mulai dari Rp 20 ribu saja. Banyak tren hijab terbaru yang dijual di sini. "
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

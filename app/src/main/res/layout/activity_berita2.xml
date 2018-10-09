@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="322dp"
+        android:layout_height="215dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/berita2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="327dp"
+        android:layout_height="252dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Jakarta - Artis Tanah Air satu persatu terjun di bisnis fashion. Sebut saja Luna Maya, Laudya Cynthia Bella, hingga Nycta Gina yang terjun langsung merilis koleksi busana hingga hijab untuk mencoba peruntungan.  Salah satu artis yang baru-baru ini berhijab, Fenita Arie baru saja merilis koleksi busana pada ajang Jakarta Modest Fashion Week 2018. Pada acara yang digelar Jumat (27/07/2018) itu, ia berkolaborasi dengan brand L.Tru merancang koleksi busana muslim.  Fenita Arie seolah mengungkapkan kepribadiannya lewat koleksi bernama L.Tru X Fenita Arie itu. Sebelum berhijab ia mengaku sangat senang tampil simpel seperti T-shirt. Kini, ia berusaha menyuntikkan rasa berbusana effortless itu pada koleksi busana yang lebih tertutup. Masih membawa bendera L.Tru, koleksinya kali ini bermain di warna-warna nevy, perak, dan cokelat. Busana loose dan simpel tetap terlihat unik dengan detail zipper dan potongan asimetris. "
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.365" />
+
+</android.support.constraint.ConstraintLayout>
